@@ -1,0 +1,219 @@
+.about-body {
+	border: red 2px solid;
+	margin-top: 60px;
+}
+.about-section {
+	margin-top: 50px;
+	width: 80%;
+	margin-left: 60px;
+	display: flex;
+}
+.about-section-left {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	float: left;
+	margin-left: 70px;
+	padding-left: 30px;
+	width: 40%;
+}
+.about-section-left h1 {
+	font-family: Outfit, sans-serif;
+	font-size: 70px;
+	margin-bottom: 5px;
+}
+.about-section-left p {
+	font-family: Outfit, sans-serif;
+	font-size: 20px;
+	margin-top: 15px;
+	line-height: 40px;
+}
+
+.about-section-right {
+	display: flex;
+	float: right;
+	margin-left: 150px;
+	width: 40%;
+	justify-content: center;
+	align-items: center;
+}
+.about-section-right img {
+	max-width: 100%;
+	width: 500px;
+	height: 300px;
+}
+
+.about-section-second-body {
+	margin-top: 120px;
+	width: 80%;
+	margin-left: 60px;
+	display: flex;
+}
+.about-section-second-left {
+	display: flex;
+	margin-right: 110px;
+	float: left;
+	width: 45%;
+	justify-content: center;
+	align-items: center;
+}
+
+.about-section-second-right {
+	border: 1px red solid;
+	display: flex;
+	flex-direction: column;
+	margin-top: 30px;
+	float: right;
+	width: 45%;
+}
+.about-section-second-right h1 {
+	font-family: Outfit, sans-serif;
+	font-size: 70px;
+	margin-bottom: 5px;
+}
+.about-section-second-right p {
+	font-family: Outfit, sans-serif;
+	font-size: 20px;
+	margin-top: 15px;
+	line-height: 40px;
+}
+
+@media screen and (max-width: 900px) {
+	.about-body {
+		border: red 2px solid;
+		margin-top: 60px;
+	}
+	.about-section {
+		margin-top: 50px;
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.about-section-right {
+		border: 2px red solid;
+		display: flex;
+		width: 100%;
+		justify-content: flex-start;
+		align-items: center;
+		margin-left: -10px;
+		margin-bottom: 40px;
+	}
+
+	.about-section-left {
+		border: 2px red solid;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		flex-direction: column;
+		width: 100%;
+		margin-left: -16px;
+	}
+	.about-section-left h1 {
+		font-family: Outfit, sans-serif;
+		font-size: 50px;
+		margin-bottom: 5px;
+	}
+	.about-section-left p {
+		font-family: Outfit, sans-serif;
+		font-size: 20px;
+		margin-top: 15px;
+		line-height: 40px;
+	}
+
+	.about-section-second-body {
+		margin-top: 50px;
+		display: flex;
+		flex-direction: column;
+	}
+	.about-section-second-left {
+		display: flex;
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+		border: 1px red solid;
+	}
+
+	.about-section-second-right {
+		border: 2px red solid;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		flex-direction: column;
+		width: 100%;
+	}
+	.about-section-second-right h1 {
+		font-family: Outfit, sans-serif;
+		font-size: 50px;
+		margin-bottom: 5px;
+	}
+	.about-section-second-right p {
+		font-family: Outfit, sans-serif;
+		font-size: 20px;
+		margin-top: 15px;
+		line-height: 40px;
+	}
+
+	.about-section-info {
+		border: red 2px solid;
+		display: flex;
+		flex-direction: column;
+        width: 100%;
+        margin-left: -50px;
+	}
+	.about-section-info h1 {
+		color: #0056d2;
+		font-size: 40px;
+		font-family: Outfit, sans-serif;
+        margin-left: -60px;
+	}
+	.about-section-info h3 {
+		color: #0056d2;
+		font-family: "EB Garamond", serif;
+		font-style: italic;
+		font-size: 25px;
+		margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+		width: 100%;
+        margin-left: -70px;
+	}
+	.about-section-info p {
+		color: #000;
+		font-family: Outfit, sans-serif;
+		font-size: 18px;
+		line-height: 40px;
+		margin-top: 10px;
+		width: 100%;
+        margin-left: -70px;
+	}
+}
+
+.about-section-info {
+	border: red 2px solid;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 120px 70px;
+	padding: 20px 70px;
+}
+.about-section-info h1 {
+	color: #0056d2;
+	font-size: 60px;
+	font-family: Outfit, sans-serif;
+}
+.about-section-info h3 {
+	color: #0056d2;
+	font-family: "EB Garamond", serif;
+	font-style: italic;
+	font-size: 30px;
+	margin-top: 10px;
+}
+.about-section-info p {
+	color: #000;
+	font-family: Outfit, sans-serif;
+	font-size: 20px;
+	line-height: 40px;
+	margin-top: 10px;
+}
